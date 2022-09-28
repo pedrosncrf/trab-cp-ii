@@ -1,0 +1,117 @@
+@keyframes animation-topo {
+
+    0%{ top: -100px;
+        opacity: 0;
+    }
+
+    100%{ top: 0px;
+          opacity: 1;    
+    }   
+
+}
+
+header{
+
+    animation-name: animation-topo;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    position: relative;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes animation-roda{
+
+    0%{
+
+        transform: rotate(0);
+
+    }
+
+    100%{
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+.one:hover{
+
+    animation-name: animation-roda;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.two:hover{
+
+    animation-name: animation-roda;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.three:hover{
+
+    animation-name: animation-roda;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+.four:hover{
+
+    animation-name: animation-roda;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation-fotao {
+
+    0%{ top: -100px;
+        opacity: 0;
+    }
+
+    100%{ top: 0px;
+          opacity: 1;    
+    }   
+
+}
+
+.um:hover{
+
+    transform: scale(1.2);
+
+}
+
+.dois:hover{
+
+    transform: scale(1.2);
+
+}
+
+.tres:hover{
+
+    transform: scale(1.2);
+
+}
+
+.quatro:hover{
+
+    transform: scale(1.2);
+
+}
+
+.conteudo .formulario{
+
+    animation-name: animation-fotao;
+    animation-duration: 2.5s;
+    animation-delay: 2s;
+    position: relative;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}

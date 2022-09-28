@@ -1,0 +1,93 @@
+body{
+
+    background-color: #202020;
+
+}
+
+.fotinhas img{
+
+    width: 60px;
+    padding: 0 10px;
+
+}
+
+nav{
+
+    background-color: #3b3b34;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+
+.listas{
+
+    display: flex;
+    font-size: 25px;
+    flex-wrap: wrap;
+    gap:15px;
+
+}
+
+.listas a{
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.conteudo .formulario{
+
+    background-image: url(https://imagens.ebc.com.br/n1OaZ6sFFwMhwvAqhKW8YJnkvX8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/imagem_divulgacao_da_serie_gdlk_na_netflix.jpg?itok=mTi6x2CP);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cadastro{
+    
+    color: #ff0000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid #ff0000;
+    
+}
+    
+.controlador{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cadastro button{
+
+    font-size: 15px;
+    border: 1px solid #ff0000;
+    border-radius: 15px;
+    padding: 10px 20px;
+
+}
+
+.cadastro a{
+
+    text-decoration: none;
+
+}
+
+.cadastro .vai{
+
+    background-color: #adff2f;
+    margin: auto;
+    display: block;
+    
+}
+
